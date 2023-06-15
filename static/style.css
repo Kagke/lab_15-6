@@ -1,0 +1,52 @@
+table, th, td {
+    border: 1px solid;
+    text-align: center; 
+    vertical-align: middle;
+  }
+
+header {
+  width:20%;
+}
+/* #banner {
+    margin: 0 auto;
+    padding: 0;
+    width:100%;
+    background-color: blue;
+    text-align: center;
+    color:white
+  } */
+a{
+  color:gainsboro;
+}
+body {
+  margin:2rem;
+  background-color:#333;
+}
+.font_family{
+  font-family: Helvetica, Arial, sans-serif;
+}
+.header{
+  background-color: rgb(223, 57, 57);
+  margin:1rem;
+  padding-left:3rem;
+}
+
+table {
+  color: #333;
+  background: rgb(115, 105, 105);
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+  color:azure;
+}
+
+h2{
+  color:gainsboro;
+
+}
+label{
+  color:azure;
+}
+.text_color{
+  color:azure;
+}

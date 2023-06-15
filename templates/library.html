@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="text_color">Book List</h1>
+    <table>
+     <tr>
+      <th>Book Title</th>
+      <th>Book Genre</th>
+      <th>Book Author</th>
+      <th>Availible?</th>
+     </tr>
+    {% for book in library.values() %}
+    <tr>
+      <td><a href={{book.url}}>{{book.title}}</a></td>
+      <td>{{book.genre}}</td>
+      <td>{{book.author}}</td>
+      {% if book.checked_out %}
+      <td>&#10060</td>
+      {% else %}
+      <td>&#9989</td>
+      {% endif %}
+    </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
